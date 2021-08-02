@@ -1,11 +1,57 @@
 #jina{
     float:left;
     padding: 20px 20px;
-}
+       }
 
-h1{color: rgb(95, 95, 241);font-size: 60px;}
-body{background-color: rgb(225, 225, 235);}
-#kujaza{text-align: right;padding: 20PX 20PX;}
-p{font-size: 35px;}
-#kip{text-align: left;}
-form{width:400px;length:400px;float:right;}
+h1{
+    color: rgb(95, 95, 241);font-size: 60px;
+   }
+body{
+    background-color: rgb(225, 225, 235);
+    }
+#kujaza{
+    text-align: right;padding: 20PX 20PX;
+       }
+p{
+    font-size: 30px;  
+ }
+#kip{
+    text-align: center;background-color: blue;color: white;
+    }
+form{
+    width:400px;
+    length:400px;
+    float:right;
+    }  
+.form-stayle{
+    background-color: white;
+    box-shadow: inset;
+    float: inline-end;
+    border-spacing: 10px;
+    margin: 25px 25px;
+    padding: 20px 25px;
+    box-shadow: inset;
+    }
+.slim{background-color: #42b72a;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.toppat{background-color: white;
+    overflow: hidden;
+    text-align: center;    
+} 
+.toppat a{float:center;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 20px 20px;
+} 
+.sach{float: left;} 
+.majuu{
+    margin: 0px;
+    box-sizing: border-box;
+}    
