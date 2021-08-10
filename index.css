@@ -1,0 +1,94 @@
+body{
+    background-color: white;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.{padding: 0px;
+  margin: 0%;
+  font-family: sans-serif;
+  box-sizing: border-box;  
+}
+.jojo{
+    background-color: #fff;;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 0px #ccc;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.avatar:hover{
+    background: #f1f2f6;
+    transition: ease-in-out o.1s;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.fb{
+    height: 40px;
+    object-fit: contain;
+    margin-right: 5px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: #f1f2f6;
+    padding: 15px;
+    border-radius: 50px;
+    height: 40px;
+}
+.in{
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 0 10px;
+}
+.nav-mid{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    padding: 10px 2.8vw;
+    border-radius: 5px;
+    color: #66676c;
+}
+.icon i{
+    font-size: 25px;
+}
+.icon:hover{
+    background-color: #f1f2f6;
+    transition: ease-in-out 0.1s;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.bill-img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-right: 5px;
+}
+.buttons i{
+    padding: 10px;
+    margin: 0 1px;
+    border-radius: 50%;
+    background: #f1f2f6;
+
+}
+.buttons i:hover{
+    background: #d8d9dd;
+    transition: ease-in-out 0.1s;
+}
